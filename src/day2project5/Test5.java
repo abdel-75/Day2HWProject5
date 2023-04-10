@@ -7,5 +7,13 @@ public class Test5 {
 		System.out.println(" this is test 5.......");
 		
 	}
+	
+	public int getProduct( int x, int y, int z) {
+		
+		int result = 0;
+		result = x * y * z;
+		
+		return result;
+	}
 
 }
